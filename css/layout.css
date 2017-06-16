@@ -1,0 +1,202 @@
+@charset "UTF-8";
+#intro h1 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 60px;
+}
+div #intro {
+	background-color: #C48F6F;
+	background-image: url(../images/header_background.jpg);
+	background-size: cover;
+	height: 85vmin;
+}
+.Spruch {
+  font-size: 49px;
+  font-family: "Gill Sans";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.184;
+  text-align: center;
+}
+.philosophie {
+	font-family: LucidaGrande;
+	color: #666666;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 36px;
+}
+h1.lbackground {
+	font-family: Arial;
+	color: #e27a3f;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 60px;	
+}
+h1.dbackground {
+	font-family: Arial;
+	color: #FFFFFF;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 60px;
+}
+#weg img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+}
+#weg h2 {
+	color: rgba(255,255,255,1.00);
+	text-align: center;
+	font-weight: bold;
+}
+#weg p {
+	color: rgba(255,255,255,1.00);
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 1.2em;
+	line-height: 1.6em;
+	margin-top: 1.5em;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(119, 119, 119, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 1);
+    border-width: 0px;
+    border-radius: 4px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(119, 119, 119, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(252, 252, 252, 1);
+    background-color: rgba(231, 156, 114, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #E79C72;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #E79C72;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #E79C72;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #ffffff;
+}ul.navbar-right {
+	margin-top: 2em;
+}
+.navbar-header img {
+	margin-top: 10px;
+}
+.icon-more {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#weg {
+	background-color: rgba(226,122,63,0.90);
+}
+#projekte {
+	background-color: rgba(226,122,63,0.90);
+}
+#projekte img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footer {
+	background-color: rgba(226,122,63,0.90);
+}
+#footer h2 {
+	color: #EEEEEE;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+#footer p {
+	color: #EEEEEE;
+}
+#projekte img {
+	margin-bottom: 2em;
+}
+#kontakt p {
+	line-height: 2.3em;
+}
+#kontakt .btn {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.btn-more-l {
+	background: none;
+	color: rgba(255,255,255,1.00);
+	font-size: 20px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 2em;
+}
+.btn-more-d {
+	background: none;
+	color: #666666;
+	font-size: 20px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 2em;
+}
+#team img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+}
+p.name {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 2em;
+}
+p.position {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 2em;
+}
+#philosophie , #weg, #team, #projekte, #kontakt, #footer{
+	padding-top: 2em;
+	padding-bottom: 4em;
+}
+#footer a {
+	color: #FFFFFF;
+}
+#scrimg01 , #scrimg02, #scrimg03, #scrimg04{
+	opacity: 0;
+}
+h1.hscrollpos {
+	color: #000000;
+}
+
+@media (max-width:767px){
+#philosophie p {
+	font-size: 0.8em;
+}
+}
